@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Hello Wolrd</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+<h1 id="LogoText">Hello world</h1>
+<div id="content">
+<h2>Articles:</h2>
+    {% for article in articles %}
+        <h3>Author :{{ article.author }}</h3>
+        <span>Text:{{ article.text }}</span><br>
+    {% endfor %}<br>
+<a href="{% url "article" %}" >Create new article</a>
+</div>
 
 </body>
 </html>

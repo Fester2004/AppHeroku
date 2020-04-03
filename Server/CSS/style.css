@@ -1,0 +1,28 @@
+body {
+     background-color: #0a2806;
+     width: 100%;
+     height: 100%;
+ }
+#LogoText {
+    color:#07d40e;
+    text-align: center;
+}
+a{
+    background-color: cornflowerblue;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color:#444444;
+    margin-top: 20px;
+}
+a:hover{
+    background-color: blue;
+    color:white;
+}
+#content{
+    text-align: center;
+    margin:0 auto;
+    background-color:white;
+    width: 50%;
+    height: 600px;
+}
