@@ -19,4 +19,5 @@ from App import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('articles/create', views.ArticleCreate.as_view(), name="article"),
 ]
